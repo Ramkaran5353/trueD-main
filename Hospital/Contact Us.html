@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		body {
+			background-image: url(Background1.jpg);
+			background-size: cover;
+			background-position: center;
+			font-family: Arial, sans-serif;
+		}
+		
+		.contact-form {
+			width: 50%;
+			margin: 40px auto;
+			padding: 20px;
+			 background-color: rgb(228, 245, 250); 
+			 border: 1px solid #ddd; 
+			border-radius: 15px; 
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+		}
+		
+		.form-control {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		.form-control:focus {
+			border-color: #aaa;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.submit-btn {
+			background-color: rgb(68, 65, 65);
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.submit-btn:hover {
+			background-color: rgba(17, 139, 201, 0.781);
+            
+		}
+	</style>
+</head>
+<body>
+<div class="contact-form">
+		<h2>Contact Us</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" class="form-control" required>
+			
+			<label for="Mobile Number">Mobile Number:</label>
+			<input type="Mobile Number" id="Mobile Number" class="form-control" required>
+			
+			<label for="City">City:</label>
+			<input type="City" id="City" class="form-control" required>
+			
+			<label for="message">Message/Tell Problem:</label>
+			<textarea id="message" class="form-control" required></textarea>
+			
+			<button class="submit-btn">Book Appointment</button>
+		</form>
+	</div>
+</body>
+</html>

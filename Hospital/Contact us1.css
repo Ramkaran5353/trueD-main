@@ -1,0 +1,111 @@
+*{
+    
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #106a6a;
+    }
+    header {
+        background-color: #0a4e4d;
+        padding: 5px;
+        text-align: center;
+    }
+    .container {
+          max-width: 75%; 
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-links a:hover{
+        color:#168686;
+        transition:0.3s ;
+    }
+    .hero h1{
+        font-size: 3em;
+        text-align: center;
+        color: white;
+    }
+    .logo span{
+        color: #168686;
+    }
+
+    .logo {
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 2em;
+    }
+    .name {
+        color: #ffffff;
+        font-size: 2em;
+        font-family: sans-serif;
+    }
+    .nav-links {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+    .nav-links li {
+        margin-left: 40px;
+    }
+    .nav-links a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    main {
+        padding: 40px 0;
+    }
+    .fields {
+        margin-top: 40px;
+        padding: 20px;
+        padding-bottom: 80px;
+        border: 2px white;
+        background-color: #208483;
+        border-radius: 20px;
+        border: 1px solid white;
+    }
+    .fields p{
+        color: white;
+        opacity: 100%;
+    }
+    input{
+        width: 80%;
+        font-size: 1.3em;
+        padding: 0 30px;
+        line-height: 40px;
+        border-radius: 7px;
+        outline: none;
+        border: 2px solid #106a6a;
+        background: transparent;
+        color: white;
+        
+    }
+    .follow-us {
+        margin-top: 40px;
+    }
+    .nav-links a:hover{
+        color:#168686;
+        transition:0.3s ;
+    }
+    .logo span{
+        color: #168686;
+    }
+    .submit-btn {
+        background-color: rgb(68, 65, 65);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .submit-btn:hover {
+        background-color: rgba(17, 139, 201, 0.781);
+        
+    }
+}
